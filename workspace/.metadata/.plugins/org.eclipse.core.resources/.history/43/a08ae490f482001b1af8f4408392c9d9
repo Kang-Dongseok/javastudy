@@ -1,0 +1,34 @@
+package quiz04;
+
+public class Gun {
+
+	// field
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET = 6;
+	
+	// constructor
+	public Gun() {}
+	public Gun(String model, int bullet) {
+		this.model = model;
+		this.bullet = bullet;
+	}
+	
+	// method
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public int getBullet() {
+		return bullet;
+	}
+	public void setBullet(int bullet) {
+		this.bullet = bullet;
+	}
+	public int getFULL_BULLET() {
+		return FULL_BULLET;
+	}
+
+}

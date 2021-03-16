@@ -1,0 +1,63 @@
+package quiz09;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun[] guns;
+	private int idx;
+	
+	// constructor
+	public Soldier() {}
+	public Soldier(String name, int gunCount) {
+		this.name = name;
+		guns = new Gun[gunCount];
+	}
+	
+	// method
+	public void addGun(Gun gun) {
+		guns[idx++]=gun;
+	}
+	
+	public void shoot() {
+		for(int i = 0; i < idx; i++) {
+			guns[i].shoot();
+		}
+	}
+	public void shoot(int gunNum) {
+		guns[gunNum-1].shoot();
+	}
+	public void shoot(String gunName) {
+		for(int i = 0; i < idx; i++) {
+			if(guns[i].getModel().equals(gunName)) {
+				guns[i].shoot();
+				break;
+			}
+		}
+	}
+	
+	public void reload(int bullet) {
+		for(int i = 0; i < idx; i++) {
+			guns[i].reload(bullet);
+		}
+	}
+	public void reload(int gunNum, int bullet) {
+		guns[gunNum].reload(bullet);
+	}
+	public void reload(String gunName, int bullet) {
+		for(int i = 0; i < idx; i++) {
+			if(guns[i].getModel().equals(gunName)) {
+				guns[i].reload(bullet);
+				break;
+			}
+		}
+	}
+	
+	
+	public void info() {
+		System.out.println("이름: "+name);
+		for(int i = 0; i < idx; i++) {
+			guns[i].info();
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package ex03_overloading;
+
+public class Rectangle {
+
+	// field
+	int width;
+	int height;
+	
+	void set(int n) {
+		width = height = n;
+	}
+	
+	void set(int w, int h) {
+		width = w;
+		height = h;
+	}
+	int getArea() {
+		return width * height;
+	}
+}

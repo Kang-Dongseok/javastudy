@@ -1,0 +1,13 @@
+package ex01_random;
+
+public class Ex01_String {
+
+	public static void main(String[] args) {
+
+		String a = "apple";
+		String b = "apple";
+		
+		System.out.println(a==b);
+	}
+
+}

@@ -1,0 +1,24 @@
+package quiz07;
+
+public class Game {
+
+	// field
+	// private Player[] players = new Player[2];
+	private Player[] players;
+	
+	// constructor
+	public Game(int playerCount) {
+		players = new Player[playerCount];
+	}
+	
+	// method
+	public void setPlayers() {
+		String[] names = {"alice", "david", "brown", "emily", "james"};
+		for(int i = 0; i < players.length; i++) {
+			// players[i].setName(name); // Player의 생성자가 없을 때
+			players[i] = new Player(names[(int)(Math.random() * names.length)]);
+			
+		}
+	}
+	
+}

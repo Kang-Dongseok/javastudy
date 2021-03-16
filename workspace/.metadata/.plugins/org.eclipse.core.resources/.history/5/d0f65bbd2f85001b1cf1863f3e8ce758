@@ -1,0 +1,19 @@
+package quiz07;
+
+public class Game {
+
+	// field
+	// private Player[] players = new Player[2];
+	private Player[] players;
+	
+	// constructor
+	public Game(int playerCount) {
+		players = new Player[playerCount];
+	}
+	
+	// method
+	public void setPlayers() {
+		
+	}
+	
+}

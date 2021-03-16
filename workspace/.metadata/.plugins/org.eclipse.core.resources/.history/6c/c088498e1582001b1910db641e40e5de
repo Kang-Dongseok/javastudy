@@ -1,0 +1,32 @@
+package quiz01;
+
+import java.sql.Date;
+import java.util.Calendar;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		Book b = new Book();
+		
+		b.title = "어린왕자";
+		b.writer = "생텍쥐베리";
+		b.price = 10000;
+		b.stock = 20;
+		Calendar date = Calendar.getInstance();
+		date.set(2020, 0, 10); // 2020-01-10
+		long timestamp = date.getTimeInMillis();
+		System.out.println(timestamp/(1000*60*60*24));
+		b.pubdate = new Date(timestamp);
+		b.isBest = true;
+		
+		System.out.println(b.title);
+		System.out.println(b.writer);
+		System.out.println(b.price);
+		System.out.println(b.stock);
+		System.out.println(b.pubdate);
+		System.out.println(b.isBest?"베스트셀러":"일반서적");
+		
+	}
+
+}

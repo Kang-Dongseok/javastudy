@@ -1,0 +1,18 @@
+package quiz02;
+
+public class Circle {
+
+	//field
+	private Coord center;
+	private double radius;
+	
+	Circle(){}
+	Circle(Coord center, double radius){
+		this.center = center;
+		this.radius = radius;
+	}
+	
+	public void info() {
+		System.out.println("중심좌표 "+String.copyValueOf(center.info())+", 반지름 "+radius+", 넓이 "+Math.PI*Math.pow(radius,2));
+	}
+}

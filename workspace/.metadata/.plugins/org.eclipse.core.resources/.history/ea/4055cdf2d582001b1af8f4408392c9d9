@@ -1,0 +1,13 @@
+package quiz01;
+
+public class Watch {
+
+	private int hour;
+	private int minute;
+	private int second;
+	
+	
+	public void see() {
+		System.out.println(hour+"시 "+minute+"분 "+second+"초");
+	}
+}

@@ -1,0 +1,24 @@
+package quiz04;
+
+public class Soldier {
+
+	// field
+	private String name;
+	private Gun gun;
+	
+	// constructor
+	public Soldier() {}
+	public Soldier(String name, Gun gun) {
+		this.name = name;
+		this.gun = gun;
+	}
+	
+	// method
+	public void shoot() {
+		int n = gun.getBullet();
+		gun.setBullet(n-1);
+		System.out.println("빵야! "+(n-1)+"발 남았다.");
+	}
+	
+	
+}

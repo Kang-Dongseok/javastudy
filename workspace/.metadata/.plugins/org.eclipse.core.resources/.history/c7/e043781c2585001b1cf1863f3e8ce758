@@ -1,0 +1,23 @@
+package quiz06;
+
+public class Customer {
+
+	// field
+	private int customerBread;
+	private int customerMoney;
+	
+	// constructor
+	public Customer() {}
+	public Customer(int customerMoney) {
+		this.customerMoney = customerMoney;
+	}
+	
+	// method
+	
+	// buy
+	public void buy(Bakery bakery, int bread) {
+		customerBread += bread;
+		customerMoney -= bakery.breadPrice*bread;
+		System.out.println("빵"+bread+"개, 남은돈"+customerMoney+"원");
+	}
+}

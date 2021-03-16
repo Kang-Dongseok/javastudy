@@ -1,0 +1,30 @@
+package quiz10;
+
+public class Lecture {
+
+	// field
+	private String lectureName;
+	private Student[] students;
+	
+	// constructor
+	public Lecture(String lectureName, String[] names) {
+		this.lectureName = lectureName;
+		students = new Student[names.length];
+		for(int i = 0; i < students.length; i++) {
+			students[i] = new Student(names[i]);
+		}
+	}
+	
+	// method
+	public void exam() {
+		for(int i = 0; i < students.length; i++) {
+			students[i].setScores(1);
+		}
+	}
+	public void info() {
+		for(Student student : students) {
+			student.info();
+		}
+	}
+	
+}

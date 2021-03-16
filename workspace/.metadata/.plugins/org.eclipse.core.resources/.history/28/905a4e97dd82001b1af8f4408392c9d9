@@ -1,0 +1,15 @@
+package quiz02;
+
+public class Circle {
+
+	//field
+	private Coord center;
+	private double radius;
+	
+	Circle(){
+		
+	}
+	Circle(){
+		
+	}
+}

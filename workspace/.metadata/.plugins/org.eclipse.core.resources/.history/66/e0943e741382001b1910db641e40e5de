@@ -1,0 +1,14 @@
+package quiz01;
+
+import java.sql.Date;
+
+public class Book {
+
+	String name;
+	String author;
+	int price;
+	boolean stock;
+	Date publish;
+	boolean isBestSeller;
+	
+}

@@ -1,0 +1,7 @@
+package quiz07;
+
+public class Game {
+
+	// field
+	private Player[] players;
+}

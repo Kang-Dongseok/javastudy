@@ -1,0 +1,21 @@
+package ex01_array;
+
+import java.util.Scanner;
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		String[] friendList = {"타요", "짱구", "스폰지밥"};
+		System.out.print("새로사귄 친구의 수 >>>");
+		int n = sc.nextInt();
+		String[] friendListNew = new String[n+friendList.length];
+		friendList = friendListNew;
+		for(int i = 0; i < friendListNew.length ;i++) {
+			System.out.println(friendListNew[i]);
+		}
+		sc.close();
+	}
+
+}
