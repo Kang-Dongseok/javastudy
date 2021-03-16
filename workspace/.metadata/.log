@@ -5889,3 +5889,30 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-16 15:43:47.572
 !MESSAGE close() called when useCnt is already zero for Repository[C:\SPRING0303\javastudy\.git\.git]
+
+!ENTRY org.eclipse.egit.core 4 0 2021-03-16 15:46:03.378
+!MESSAGE An exception occurred during push on URI https://github.com/Kang-Dongseok/javastudy.git: https://github.com/Kang-Dongseok/javastudy.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Kang-Dongseok/javastudy.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:436)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-03-16 15:46:07.179
+!MESSAGE An exception occurred during push on URI https://github.com/Kang-Dongseok/javastudy.git: https://github.com/Kang-Dongseok/javastudy.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Kang-Dongseok/javastudy.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:436)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1335)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:211)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.equinox.security 1 0 2021-03-16 15:47:17.206
+!MESSAGE New keyring password generated. 
