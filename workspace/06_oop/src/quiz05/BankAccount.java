@@ -14,19 +14,19 @@ public class BankAccount {
 	
 	// method
 	public void deposit(long money) {
-		if(money<=0) {
-			System.out.println(money+"원은 입금할 수 없습니다.");
+		if (money <= 0) {
+			System.out.println(money + "원은 입금할 수 없습니다.");
 			return;
 		}
 		balance += money;
 	}
 	
 	// 실제로 출금된 금액을 반환하는 메소드
-	public long withdraw(long money) {	// long money : 요청금액
-		if(money<=0) {
-			System.out.println(money+"원은 출금할 수 없습니다.");
+	public long withdraw(long money) {  // long money : 요청금액
+		if (money <= 0) {
+			System.out.println(money + "원은 출금할 수 없습니다.");
 			return 0;
-		}else if(balance<money) {
+		} else if (money > balance) {
 			System.out.println("잔액이 부족합니다.");
 			return 0;
 		}
@@ -35,17 +35,16 @@ public class BankAccount {
 	}
 	
 	public void inquiry() {
-		System.out.println("계좌번호: "+accNo+"("+balance+"원)");
+		System.out.println("계좌번호: " + accNo + "(" + balance + "원)");
 	}
 	
-	public void transfer(BankAccount you,long money) {
-//		if(money<=0) {
-//			System.out.println(money+"원 이체 불가능합니다.");
-//			return;
-//		}else if(money>balance) {
-//			System.out.println("잔액이 부족합니다.");
-//			return;
-//		}
+	public void transfer(BankAccount you, long money) {
+		// 내 돈은 줄어든다. (출금)
+		// withdraw(money);
+		// 네 돈은 늘어난다. (입금)
+		// you.deposit(money);
+		// 내 통장에서 출금된 금액을 네 통장에 입금해 준다.
 		you.deposit(withdraw(money));
 	}
+	
 }

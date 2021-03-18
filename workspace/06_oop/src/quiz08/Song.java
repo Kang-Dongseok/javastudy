@@ -14,6 +14,7 @@ public class Song {
 	
 	// method
 	public void info() {
-		System.out.println(title+"("+genre+")");
+		System.out.println(title + "(" + genre + ")");
 	}
+	
 }

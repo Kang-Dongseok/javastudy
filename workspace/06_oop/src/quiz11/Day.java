@@ -5,7 +5,6 @@ public class Day {
 	// field
 	private String schedule;
 
-	
 	// constructor
 	
 	// method
@@ -16,10 +15,10 @@ public class Day {
 		this.schedule = schedule;
 	}
 	public void info() {
-		if(schedule == null || schedule.isEmpty()) { // null 또는 빈문자열("")
+		if (schedule == null || schedule.isEmpty()) {  // null 또는 빈문자열("")
 			System.out.println("[없음]");
-		}else {
-			System.out.println("["+schedule+"]");
+		} else {
+			System.out.println("[" + schedule + "]");
 		}
 	}
 	

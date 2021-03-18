@@ -24,6 +24,12 @@
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="quiz11.WeekScheduler"/>
+<fullyQualifiedTypeName name="quiz.SalaryMan"/>
+<fullyQualifiedTypeName name="quiz.SalesMan"/>
+<fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

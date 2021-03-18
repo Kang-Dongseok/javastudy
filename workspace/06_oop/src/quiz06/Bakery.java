@@ -8,19 +8,18 @@ public class Bakery {
 	private int bakeryMoney;
 	
 	// constructor
-	public Bakery() {}
 	public Bakery(int breadCount, int breadPrice, int bakeryMoney) {
 		this.breadCount = breadCount;
 		this.breadPrice = breadPrice;
 		this.bakeryMoney = bakeryMoney;
 	}
-		
+	
 	// method
 	
 	// 1. 판매 메소드
 	// 1) 결과타입 : BreadAndChange
 	// 2) 메소드명 : sell
-	// 3) 매개변수 : 
+	// 3) 매개변수 : int money
 	public BreadAndChange sell(int money) {
 		// 판매빵개수
 		int sellBread = money / breadPrice;
@@ -28,7 +27,7 @@ public class Bakery {
 		int change = money % breadPrice;
 		// 고객에게 돌려줄 BreadAndChange 생성
 		BreadAndChange bnc = new BreadAndChange(sellBread, change);
-		// Bakery의 판매처리
+		// Bakary의 판매처리
 		bakeryMoney += (money - change);
 		breadCount -= (sellBread);
 		// 고객에게 빵과잔돈 전달
@@ -37,7 +36,7 @@ public class Bakery {
 	
 	// 2. info
 	public void info() {
-		System.out.println("빵 "+breadCount+"개, 자본금 "+bakeryMoney+"원");
+		System.out.println("빵 " + breadCount + "개, 자본금 " + bakeryMoney + "원");
 	}
 	
 }

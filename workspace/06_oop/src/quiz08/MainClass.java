@@ -3,7 +3,7 @@ package quiz08;
 public class MainClass {
 
 	public static void main(String[] args) {
-
+		
 		Producer producer = new Producer();
 		
 		Singer singer1 = new Singer("alice", 3);
@@ -12,7 +12,8 @@ public class MainClass {
 		producer.produce(singer1, new Song("", ""));
 		producer.produce(singer1, new Song("", ""));
 		producer.produce(singer1, new Song("", ""));
-
+		producer.produce(singer1, new Song("", ""));
+		
 		producer.produce(singer2, new Song("", ""));
 		producer.produce(singer2, new Song("", ""));
 		producer.produce(singer2, new Song("", ""));
@@ -21,6 +22,7 @@ public class MainClass {
 		
 		singer1.info();
 		singer2.info();
+		
 	}
 
 }

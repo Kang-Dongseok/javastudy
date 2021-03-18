@@ -6,8 +6,6 @@ public class Seat {
 	private String name;
 
 	// constructor
-
-	
 	
 	// method
 	// 1. 예매자 이름 확인
@@ -30,10 +28,10 @@ public class Seat {
 	}
 	// 5. 좌석 확인
 	public void info() {
-		if(name == null) {
-			System.out.println("가능");
-		}else {
-			System.out.println(name);
+		if (name == null) {
+			System.out.print("가능");
+		} else {
+			System.out.print(name.charAt(0) + "*" + (name.length() > 2 ? name.charAt(name.length() - 1) : ""));
 		}
 	}
 	
