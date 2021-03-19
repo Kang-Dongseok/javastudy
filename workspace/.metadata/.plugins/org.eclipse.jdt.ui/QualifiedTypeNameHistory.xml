@@ -28,8 +28,17 @@
 <fullyQualifiedTypeName name="quiz.SalaryMan"/>
 <fullyQualifiedTypeName name="quiz.SalesMan"/>
 <fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ex10_downcasting.Person"/>
+<fullyQualifiedTypeName name="ex10_downcasting.Student"/>
+<fullyQualifiedTypeName name="ex11_abstract.SalaryMan"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex12_abstract.Rectangle"/>
+<fullyQualifiedTypeName name="ex12_abstract.Square"/>
+<fullyQualifiedTypeName name="ex12_abstract.Triangle"/>
+<fullyQualifiedTypeName name="ex12_abstract.Circle"/>
+<fullyQualifiedTypeName name="quiz04.Fighter"/>
+<fullyQualifiedTypeName name="quiz04.KoreanFighter"/>
 </qualifiedTypeNameHistroy>
