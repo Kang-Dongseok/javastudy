@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=07_inheritance/src&lt;ex12_abstract{Shape.java[Shape" modifiers="1025" timestamp="1616053048288"/>
+<typeInfo handle="=07_inheritance/src&lt;ex14_interface{Animal.java[Animal" modifiers="513" timestamp="1616117350738"/>
+<typeInfo handle="=07_inheritance/src&lt;ex15_interface_extends{Phone.java[Phone" modifiers="1" timestamp="1616119629080"/>
+<typeInfo handle="=07_inheritance/src&lt;ex15_interface_extends{Computable.java[Computable" modifiers="513" timestamp="1616119630895"/>
+<typeInfo handle="=07_inheritance/src&lt;ex16_interface_extends{Pet.java[Pet" modifiers="1" timestamp="1616120339975"/>
+<typeInfo handle="=08_exception/C:\/Program Files\/Java\/jre1.8.0_202\/lib\/rt.jar=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1616025677616"/>
 </typeInfoHistroy>
