@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.nio.ReadOnlyBufferException"/>
-<fullyQualifiedTypeName name="java.awt.Rectangle"/>
-<fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
-<fullyQualifiedTypeName name="quiz05.BankAccount"/>
-<fullyQualifiedTypeName name="quiz06.BreadAndChange"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="quiz08.Producer"/>
-<fullyQualifiedTypeName name="quiz04.Soldier"/>
-<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-<fullyQualifiedTypeName name="quiz11.WeekScheduler"/>
-<fullyQualifiedTypeName name="quiz.SalaryMan"/>
-<fullyQualifiedTypeName name="quiz.SalesMan"/>
 <fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
@@ -27,7 +12,6 @@
 <fullyQualifiedTypeName name="ex12_abstract.Circle"/>
 <fullyQualifiedTypeName name="quiz04.Fighter"/>
 <fullyQualifiedTypeName name="quiz04.KoreanFighter"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex14_interface.Eagle"/>
 <fullyQualifiedTypeName name="ex14_interface.Shark"/>
 <fullyQualifiedTypeName name="ex15_interface_extends.SmartPhone"/>
@@ -42,7 +26,6 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="ex05_throw.Calculator"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="ex06_exception_class.UpDownException"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
@@ -55,9 +38,26 @@
 <fullyQualifiedTypeName name="ex08_exception_class.BankAccountException"/>
 <fullyQualifiedTypeName name="ex08_static.MyMath"/>
 <fullyQualifiedTypeName name="ex17_Object.ex02.Dog"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="ex17_Object.ex03.Dog"/>
 <fullyQualifiedTypeName name="javax.annotation.Generated"/>
-<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="ex17_Object.ex04.Product"/>
+<fullyQualifiedTypeName name="ex01_generic.MainClass"/>
+<fullyQualifiedTypeName name="ex01_generic.Box"/>
+<fullyQualifiedTypeName name="ex01_generic.Fruit"/>
+<fullyQualifiedTypeName name="ex02_generic.Box"/>
+<fullyQualifiedTypeName name="ex03_generic.Box"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex04_generic_method.Calculator"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
 <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="quiz01.Member"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
 </qualifiedTypeNameHistroy>
